@@ -35,4 +35,4 @@ def handle_get_clients():
     emit('clients', list(connected_clients))
     
 if __name__ == '__main__':
-    socketio.run(app, debug=False,allow_unsafe_werkzeug=True)
+    socketio.run(app,allow_unsafe_werkzeug=True)
