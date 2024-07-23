@@ -5,4 +5,4 @@ flask-socketio == 5.3.6
 gunicorn==22.0.0
 gevent-websocket==0.10.1
 pyreadline ==2.1
-Werkzeug==3.0.1
+Werkzeug==3.0.3
